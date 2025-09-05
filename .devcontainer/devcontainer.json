@@ -1,0 +1,15 @@
+{
+  "name": "Modular AI Team Framework",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "openai.chatgpt"
+      ]
+    }
+  },
+  // Commands run after container is created
+  "postCreateCommand": "sleep 60 && ln -s .codex/agents/project_manager.md AGENTS.md"
+}
