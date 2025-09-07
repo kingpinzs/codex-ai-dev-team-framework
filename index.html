@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codex AI Dev Team Framework</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">
+                <h1>Codex AI</h1>
+            </div>
+            <button class="hamburger-menu" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="desktop-nav">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#learn">Learn</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+        
+        <!-- Mobile hamburger menu content -->
+        <div class="mobile-menu">
+            <a href="#learn">Learn</a>
+            <a href="#docs">Documentation</a>
+            <a href="#tutorials">Tutorials</a>
+            <a href="#support">Support</a>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="hero">
+            <h2>AI Development Team Framework</h2>
+            <p>Build applications using a team of AI agent personas powered by the Codex CLI.</p>
+        </section>
+        
+        <section class="features">
+            <div class="feature-card">
+                <h3>Project Manager</h3>
+                <p>Manages project planning and coordination</p>
+            </div>
+            <div class="feature-card">
+                <h3>Frontend Developer</h3>
+                <p>Creates intuitive user interfaces</p>
+            </div>
+            <div class="feature-card">
+                <h3>Backend Developer</h3>
+                <p>Builds robust server-side solutions</p>
+            </div>
+            <div class="feature-card">
+                <h3>UI/UX Designer</h3>
+                <p>Designs user experience and visual layouts</p>
+            </div>
+            <div class="feature-card">
+                <h3>QA Engineer</h3>
+                <p>Ensures quality through testing</p>
+            </div>
+            <div class="feature-card">
+                <h3>DevOps Engineer</h3>
+                <p>Manages deployment and infrastructure</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Bottom Navigation Bar -->
+    <nav class="bottom-nav">
+        <a href="#home" class="nav-item active">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M3 12L5 10M5 10L12 3L19 10M5 10V20A1 1 0 006 21H9M19 10L21 12M19 10V20A1 1 0 0018 21H15M9 21V16A1 1 0 0110 15H14A1 1 0 0115 16V21M9 21H15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span>Home</span>
+        </a>
+        
+        <a href="#explore" class="nav-item">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M21 21L16.514 16.506L21 21ZM19 10.5C19 15.194 15.194 19 10.5 19C5.806 19 2 15.194 2 10.5C2 5.806 5.806 2 10.5 2C15.194 2 19 5.806 19 10.5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span>Explore</span>
+        </a>
+        
+        <a href="#agents" class="nav-item">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M17 21V19C17 17.9391 16.5786 16.9217 15.8284 16.1716C15.0783 15.4214 14.0609 15 13 15H5C3.93913 15 2.92172 15.4214 2.17157 16.1716C1.42143 16.9217 1 17.9391 1 19V21M9 11C11.2091 11 13 9.20914 13 7C13 4.79086 11.2091 3 9 3C6.79086 3 5 4.79086 5 7C5 9.20914 6.79086 11 9 11ZM24 21V19C23.9993 18.1137 23.7044 17.2528 23.1614 16.5523C22.6184 15.8519 21.8581 15.3516 21 15.13M16 3.13C16.8604 3.3503 17.623 3.8507 18.1676 4.55232C18.7122 5.25394 19.0078 6.11683 19.0078 7.005C19.0078 7.89317 18.7122 8.75606 18.1676 9.45768C17.623 10.1593 16.8604 10.6597 16 10.88" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span>Agents</span>
+        </a>
+        
+        <a href="#projects" class="nav-item">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span>Projects</span>
+        </a>
+        
+        <a href="#profile" class="nav-item">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M20 21V19C20 17.9391 19.5786 16.9217 18.8284 16.1716C18.0783 15.4214 17.0609 15 16 15H8C6.93913 15 5.92172 15.4214 5.17157 16.1716C4.42143 16.9217 4 17.9391 4 19V21M16 7C16 9.20914 14.2091 11 12 11C9.79086 11 8 9.20914 8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span>Profile</span>
+        </a>
+    </nav>
+
+    <script src="script.js"></script>
+</body>
+</html>
